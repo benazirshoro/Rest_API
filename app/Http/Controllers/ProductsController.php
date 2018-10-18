@@ -11,7 +11,7 @@ use Illuminate\Validation\Validator;
 class ProductsController extends Controller
 {
     
-    protected $rules =  ['name' => 'required', 'sku' => 'required|unique:products'];
+    protected $rules =  ['name' => 'required','category_id' => 'required','price' => 'required', 'sku' => 'required|unique:products'];
     
     /**
      * Display listings of all products.
