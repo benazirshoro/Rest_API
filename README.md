@@ -1,10 +1,25 @@
-PHP Developer Challenge
+PHP Basic Restful API
 ==============================
 
-##About Project
-The project is developed in Laravel
+#About Project
+The project is developed using:
+Laravel
+PP 7.2.*
+MySql 5.7.*
+Composer 1.7.2
 
-##REST API URLs
+#API Requirements:
+The API allows its users to:
+list all products
+retrieve a single product
+create a product
+delete a product
+list all product categories
+
+#Database Requirements:
+The seed data is written in JSON and has translated into SQL before being inserted into MySQL.
+
+#REST API URLs
 To get list of products
 GET /path/api/products
 
@@ -23,5 +38,9 @@ DELETE /path/api/product/{id}
 To get list of categories
 GET /path/api/categories
 
-##Isuues
-I tried to implement through Vagrant but for some reason, I couldn't access the host using '192.168.33.10' even after installing all the required software. Due to shortage of time, I couldn't fix this issue.
+#Where to find code: 
+You can find most of the code written by me inside the below folders/files:
+api/Http/Controllers
+api/Http/Resources
+database/seeds
+routes/api.php
