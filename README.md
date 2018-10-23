@@ -1,12 +1,12 @@
 PHP Basic Restful API
 ==============================
 
-#About Project
-The project is developed using:
-Laravel
-PP 7.2.*
-MySql 5.7.*
-Composer 1.7.2
+#About Project  
+The project is developed using:  
+Laravel  
+PP 7.2.*  
+MySql 5.7.*  
+Composer 1.7.2  
 
 #API Requirements:
 The API allows its users to:
